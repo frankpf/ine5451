@@ -100,7 +100,7 @@ número de comparações para encontrar o elemento predecessor será, no pior ca
 O(lg n), enquanto com busca linear seria O(n). Porém, ainda é necessário mover
 cada elemento depois do predecessor um "slot" pra frente, portanto cada iteração
 do loop externo continua fazendo trabalho O(n) e, assim, *o tempo de execução do
-pior caso ainda é O(n)*.
+pior caso ainda é O(n^2)*.
 
 * Problema 2.2 - Corretude do bubblesort
 ** Enunciado
